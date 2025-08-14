@@ -1,0 +1,6 @@
+@import url(./Style.css);
+
+header img {
+    max-width: 9em;
+    min-height: 1em;
+}

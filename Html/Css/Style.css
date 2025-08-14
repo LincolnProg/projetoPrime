@@ -1,0 +1,37 @@
+@import url(./Header.css);
+@import url(./Main.css);
+@import url(./Footer.css);
+@font-face {
+    font-family:'Amazon';
+    src: url(/Fonte/Prime.ttf);
+}
+
+
+
+
+
+:root {
+    --color00: #00050D; 
+    --color01: #fff;
+    --color02: #222222; 
+    --colorB:  #1A98FF; 
+
+    --fontePrime: 'Amazon'; 
+    
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--color00);
+    color: #fff;
+}
+
+a {
+    list-style: none;
+    color: #fff;
+}
